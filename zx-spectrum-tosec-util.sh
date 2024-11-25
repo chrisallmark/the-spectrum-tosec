@@ -10,7 +10,6 @@ for i in Games/*/; do
         then
             count=0
             folder=$letter
-            folder_ext=""
         fi
         folder_ext=$((count++ / 256))
         mkdir -p THESPECTRUM/$folder$folder_ext/$file
