@@ -17,5 +17,14 @@ for i in Games/*/; do
         for f in $i*.{tap,tzx,pzx,rom,szx,z80,sna,m3u}; do
             cp $f THESPECTRUM/$folder$folder_ext/$file
         done
+        mkdir -p THESPECTRUM/roms
+        cd THESPECTRUM/roms
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/128-0.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/128-1.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/48.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/plus3-0.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/plus3-1.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/plus3-2.rom
+        curl -O https://github.com/rastersoft/fbzx/raw/refs/heads/master/data/spectrum-roms/plus3-3.rom
    fi
 done
