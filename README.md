@@ -4,7 +4,7 @@
 
 <hr/>
 
-A shell script to convert the [TOSEC](https://archive.org/details/zx_spectrum_tosec_set_september_2023) collection of ZX Spectrum games into a structure suitable for use with [The Spectrum](https://retrogames.biz/products/thespectrum/) games consoles.
+A shell script to convert the [TOSEC](https://archive.org/details/zx_spectrum_tosec_set_september_2023) collection of ZX Spectrum games into a structure suitable for use with [The Spectrum](https://retrogames.biz/products/thespectrum/) games console.
 
 ## Running The Script
 
@@ -14,4 +14,4 @@ A shell script to convert the [TOSEC](https://archive.org/details/zx_spectrum_to
 
 This will move the game files with supported extensions (tap, tzx, pzx, rom, szx, z80, sna, m3u) into a compatible folder structure under `/THESPECTRUM` directory. As The Spectrum only supports up to 256 files per folder the games are split alphabetically (#, A...Z) and numerically (A0...A3).
 
-Copy THESPECTRUM folder to a suitable USB, plug in to The Spectrum & enjoy!
+Copy THESPECTRUM folder to a suitable USB, plug in to [The Spectrum](https://www.youtube.com/watch?v=EnfQ13nFJYc) & enjoy!
