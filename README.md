@@ -14,4 +14,6 @@ A shell script to convert the [TOSEC](https://archive.org/details/zx_spectrum_to
 
 This will move the game files with supported extensions (tap, tzx, pzx, rom, szx, z80, sna, m3u) into a compatible folder structure under `/THESPECTRUM` directory. As The Spectrum only supports up to 256 files per folder the games are split alphabetically (#, A...Z) and numerically (A0...A3).
 
+[NOTE!] In order to increase compatibility this utilty also downloads the original Spectrum ROMs from [FBZX](https://github.com/rastersoft/fbzx) into a `/THESPECTRUM/roms` folder.
+
 Copy THESPECTRUM folder to a suitable USB, plug in to [The Spectrum](https://www.youtube.com/watch?v=EnfQ13nFJYc) & enjoy!
